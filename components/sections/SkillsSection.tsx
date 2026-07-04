@@ -5,39 +5,32 @@ type SkillGroup = {
 
 const skillGroups: SkillGroup[] = [
   {
-    category: "ARCHITECTURE",
+    category: "LANGUAGES",
+    items: ["TypeScript", "JavaScript", "Dart", "PHP", "Python", "SQL / HTML & CSS"],
+  },
+  {
+    category: "FRAMEWORKS & LIBS",
+    items: ["Next.js (React)", "Flutter", "Laravel", "Tailwind CSS", "Radix UI"],
+  },
+  {
+    category: "ARCHITECTURE & STATE",
     items: [
       "Clean Architecture",
       "BLoC Pattern",
-      "Dependency Injection",
-      "Modular Routing",
-      "MVVM",
-      "MVP",
+      "Provider / GetX",
+      "MVC / MVVM",
+      "RESTful API Integration",
     ],
   },
   {
-    category: "LANGUAGES",
-    items: ["Dart 3.0", "Kotlin 1.9", "Swift 5.9", "Python"],
-  },
-  {
-    category: "FRAMEWORKS",
+    category: "TOOLS & DATABASES",
     items: [
-      "Flutter 3.x",
-      "Jetpack Compose",
-      "GetX",
-      "Provider",
-      "Hilt",
-      "Retrofit",
-      "TensorFlow",
+      "Supabase (PostgreSQL)",
+      "MySQL",
+      "Git / GitHub",
+      "Vercel / Railway",
+      "GitHub Actions (CI/CD)",
     ],
-  },
-  {
-    category: "CI / CD",
-    items: ["Codemagic", "GitHub Actions"],
-  },
-  {
-    category: "TESTING",
-    items: ["Unit Testing", "Widget Testing", "Integration Testing", "TDD"],
   },
 ];
 
