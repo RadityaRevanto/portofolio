@@ -16,7 +16,7 @@ const projects: Project[] = [
       "Website landing page untuk kost pribadi yang menampilkan informasi kamar, fasilitas, harga, dan lokasi, serta memudahkan calon penghuni untuk menghubungi dan melakukan reservasi.",
     tags: ["NextJS", "TailwindCSS", "TypeScript"],
     image: "/images/kost_swety.png",
-    demoUrl: "https://swety-kos.vercel.app",
+    demoUrl: "https://swety-one.vercel.app/",
     githubUrl: "https://github.com/RadityaRevanto/swety.git",
   },
   {
